@@ -27,7 +27,7 @@ def dump_dict(pkl_filename, dict_to_dump):
     output = open(pkl_filename, 'wb')
     pickle.dump(dict_to_dump, output)
     output.close()
-    print('# of entries dumped', len(dict_to_load))
+    print('# of entries dumped', len(dict_to_dump))
 
 def extract_facebook_post(post_url, options, timeout=60, credentials=(FB_USER, FB_PASS)):
     """Use facebook_scraper's get_posts fcn to scrape a post's metadata
