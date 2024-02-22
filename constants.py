@@ -1,5 +1,5 @@
 # Constants
-OPTIONS = {'comments': False, 'reactors': True, 'progress': True, 'allow_extra_requests': False}  # True
+OPTIONS = {'comments': True, 'reactors': True, 'progress': True, 'allow_extra_requests': True}  # True
 
 TIMEOUT_SECS = 60
 
@@ -38,3 +38,5 @@ IMPORTANT_KEYS = [
     'page_id',
     'sharers',
 ]
+
+
